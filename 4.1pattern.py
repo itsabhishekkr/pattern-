@@ -1,0 +1,44 @@
+#1
+#12
+#123
+#1234
+#12345
+n=int(input())
+i=1
+while(i<=n):
+    j=1
+    while(j<=i):
+        print(j,end="")
+        j=j+1
+    print()
+    i=i+1
+#1
+#23
+#345
+#4567
+n=int(input())
+i=1
+while(i<=n):
+    j=1
+    m=i
+    while(j<=i):
+        print(m,end="")
+        m=m+1
+        j=j+1
+    print()
+    i=i+1
+#1
+#23
+#456
+#78910
+n=int(input())
+i=1
+m=1
+while(i<=n):
+    j=1
+    while(j<=i):
+        print(m,end='')
+        j=j+1
+        m=m+1
+    print()
+    i=i+1
